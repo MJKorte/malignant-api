@@ -1,0 +1,35 @@
+#file: docker-compose.yml
+#author: Mark de Korte
+#
+#This docker-compose file initializes a database + flask application inside a docker container, 
+#the script to parse VCF viles and insert them into the database is also initialized here.
+
+version: '2'
+
+services:
+  #setup database
+  mysql:
+    image: mysql:5.7
+    ports:
+      - 8083:3306
+    volumes:
+      - ./database:/docker-entrypoint-initdb.d
+    environment:
+      MYSQL_ROOT_PASSWORD: pwd
+      MYSQL_DATABASE: vdatabase
+
+ #setup flask server 
+  flask_api:
+    build: ./flask_api
+    ports:
+     - "5000:5000"
+    volumes:
+      - ./flask_api:/flask_api
+
+ #setup the vcf parser
+  vcfparser:
+    build: ./VCFparser
+    volumes:
+     - ./:/parser/
+
+

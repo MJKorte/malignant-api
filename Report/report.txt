@@ -1,0 +1,2 @@
+Of the 7 variants processed, 5 were found to be possibly malignant with an allele frequency of < 0.1%.
+The found variants with their chromosome, position, mutation, allele frequency, gene and Uniprot accesion code can be found in the variants_filtered.json and variants_filtered.csv

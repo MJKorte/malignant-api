@@ -1,0 +1,46 @@
+{
+ "variants": [
+	      {
+	      "chrom": "Y",
+	      "pos": 10,
+	      "ref": "A",
+	      "alt": "T"
+	     },
+	      {
+	      "chrom": "Y",
+	      "pos": 14898771,
+	      "ref": "CTTACTATTTAATAAATGTAAACTCTGTAATAATTATTAATTA",
+	      "alt": "C"
+	     },
+	      {
+	      "chrom": "Y",
+	      "pos": 2655545,
+	      "ref": "A",
+	      "alt": "G"
+	     },
+	      {
+	      "chrom": "Y",
+	      "pos": 2709635,
+	      "ref": "A",
+	      "alt": "C"
+	     },
+	      {
+	      "chrom": "Y",
+	      "pos": 2655631,
+	      "ref": "G",
+	      "alt": "A"
+	     },
+	      {
+	      "chrom": "Y",
+	      "pos": 2655429,
+	      "ref": "G",
+	      "alt": "A"
+	     },
+	      {
+	      "chrom": "Y",
+	      "pos": 2655545,
+	      "ref": "A",
+	      "alt": "G"
+	     }
+	    ]	      
+}
